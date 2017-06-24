@@ -1,0 +1,15 @@
+{
+  "name": "process_st",
+  "version": "1.0.0",
+  "description": "Process Street test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Nicole Li",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
