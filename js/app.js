@@ -54,7 +54,7 @@
 
         .component('uploader', {
             controller: 'DemoFileUploadController',
-            templateUrl: '/component/uploader.template.html'
+            templateUrl: 'component/uploader.template.html'
         })
 
 }());
