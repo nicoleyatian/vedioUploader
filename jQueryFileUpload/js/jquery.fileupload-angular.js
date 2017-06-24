@@ -90,6 +90,9 @@
                             data.textStatus === 'error') {
                         data.files[0].error = data.errorThrown ||
                             data.textStatus;
+                    } else if (data.result) {
+                        data.files[0].hash = 'wistia_async_' + data.result.hashed_id;
+                        data.files[0].result = data.result;
                     }
                 },
                 add: function (e, data) {
